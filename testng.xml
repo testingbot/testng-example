@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SuiteTestingBot" verbose="1" >
+  <test name="TestingBot" >
+    <classes>
+       <class name="TestingbotTest" />
+    </classes>
+  </test>
+</suite>
+
+<listeners>
+	<listener class-name="com.testingbot.testng.TestingBotTestListener"/>
+</listeners>
